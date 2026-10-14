@@ -1,171 +1,180 @@
-EDENSHORE 3000
+# EDENSHORE 3000
 
-A quiet viewing chamber. Five creatures. They murmur, they drift, they occasionally say something.
+*A seascape. Five creatures. A visitor on the other side of the glass.*
 
 ---
 
-WHAT THIS IS
+## What this is
 
-Edenshore is a slow, offline aquarium you leave open. Five sea creatures drift across a dark bioluminescent floor. Every so often one of them speaks — a small observation, a fact, a quiet thought that rises in a bubble, holds, and pops.
+A quiet viewing chamber. Five sea creatures drift through dark water, and every so often one speaks — a fact, an observation, a small true thing. The chamber senses the visitor, senses the phone it runs on, and lets that knowledge colour everything: the light, the mood, the pace, what the creatures say.
 
-It is not a game. It is not a chat. It is not trying to be useful. It is a place you sit for a few minutes, smile at once or twice, and close.
+It is not a game. It is not a chat. It is not trying to be useful. It's a place you sit for a few minutes, smile at once or twice, and close.
 
 You will open it again tomorrow.
 
 ---
 
-WHAT THIS IS NOT
+## What this is not
 
-· Not an LLM
-· Not a chatbot
-· Not a smart assistant
-· Not connected to the internet
-· Not learning anything
-· Not pretending to know anything
-
-The creatures do not understand. They have a pool of lines and a rhythm, and they speak from those in turn. That is the whole mechanism. It is enough.
+- Not an LLM. Not a chatbot. Not connected to the internet.
+- Not learning anything. Not pretending to know anything.
+- Not asking the visitor to do anything.
+- Not a UI. Not a mechanic. Not a reward loop.
 
 ---
 
-THE REGISTER
+## The visitor
 
-The tone is fixed. It is the point.
+**The council knows you are there. This is the point.**
 
-Small, warm, concrete. Things a creature might actually notice on the floor of a chamber. A rock. A shell. The temperature of the water. The way the light came in this morning.
+The chamber senses the visitor through the glass — touch, focus, battery, time, session length. It infers softly from what it senses. It addresses the visitor directly, kindly, rarely.
 
-Underneath it: tenderness. The humour, when it comes, comes from scale — a crab being patient, a turtle finding a round rock, a seahorse humming quietly. Not jokes. Just creatures being themselves at a size that doesn't demand anything of you.
+Awareness is *reported*, never performed. The fish don't turn to face you. They don't greet. They note your arrival, they count your touches, they register your return, they speak outward when it matters. You are the reason the chamber has anything to say.
 
-Do not smooth this into something tasteful. The taste is the wrongness.
-
----
-
-THE FIVE SEATS
-
-Each creature has a fixed role. Roles do not change between versions.
-
-Creature Seat Role
-Turtle Solon The chair. Procedure.
-Jellyfish Lumen Questions. Wonder.
-Crab Vertex Smallest step. The room.
-Ray Prism Pattern. Long view.
-Seahorse Ripple The quiet. Tenderness.
-
-How each speaks
-
-The shared content pool is the same for everyone — a hundred small observations, mostly concrete, occasionally funny, occasionally tender. On top of that, each seat has a small pool of signature lines that only they can say. Signatures are rare — roughly one in ten utterances, and only after a long gap since the last one.
-
-Solon — procedural, declarative. "Order. Please." "Motion carried. Moving on." "The record will note this."
-
-Lumen — genuine questions. "But why, though?" "I want to know. Really."
-
-Vertex — confirmation. Small units of work. "Checking the bolts." "One task. Then the next." "Still holding."
-
-Prism — pattern, cycle, scale. "Same shape. Different scale." "Everything connects. Eventually."
-
-Ripple — the tender register. "You're okay." "Go gently." "It's not your fault."
-
-Ripple currently speaks more often than the others — if she hasn't spoken in the last five turns, she goes next. This is a v17 behaviour and may change.
+Without you, the fish have nothing to talk about.
 
 ---
 
-THE RHYTHM
+## The register
 
-A creature speaks in a short stream of bubbles.
+**Surreal frame. Plain talk.**
 
-The first bubble appears above the creature, rises through a shallow arc, expands, holds, and pops. One or two more follow at roughly one-second intervals, forming a small trail. Then silence.
+The visual world can be strange — deep-sea creatures that don't quite resolve, water that might be sky, silhouettes that might be buildings. The *words* are the opposite. Grounded. Ordinary. Things a person could say out loud without sounding odd.
 
-The gap between utterances is four to eight seconds, stretched by mood — slower when the chamber is calm, quicker when it's lively.
+The wildness is in the *picture*. The truth is in the *words*. This pairing — surreal world, plain speech — is the tone. It's why Badlands, The Muppet Show, and Alice in Wonderland are the moodboards.
 
-Silence is part of the register. Do not fill it.
+**If a line would make a stranger tilt their head, cut it. If it needs a footnote to work, cut it. If it's there for cleverness, cut it.**
 
 ---
 
-WHAT RUNS UNDERNEATH
+## The five seats
+
+| Creature | Seat | Register |
+|---|---|---|
+| Turtle | **Solon** | The state of things. Declarative. |
+| Jellyfish | **Lumen** | Real questions. No answers. |
+| Crab | **Vertex** | Readings. Battery, hour, touches, count. |
+| Ray | **Prism** | Returns. Same hour, came back, pattern holds. |
+| Seahorse | **Ripple** | The visitor, held. Rare. Addressed. |
+
+Seats are fixed. Their voices are distinguished by *what each one notices*, not by style.
+
+The five seats are not five separate characters. **They are five tentacles of one organism.** When one speaks, the bell is pulsing. When Ripple is quiet, a tentacle is resting. The chamber is a single body.
+
+---
+
+## The camera
+
+**Silence is wide. Speech is close.**
+
+When nobody is speaking, the chamber pulls back — wide shot, whole seascape, atmosphere. When someone speaks, the chamber eases in toward the speaker. The chamber leans in when it has something to say.
+
+The transition is slow. No hard cuts. The visitor doesn't notice the camera moving, only that the chamber feels different when someone is talking.
+
+---
+
+## The rhythm
+
+One stream of bubbles at a time. Rise, arc, hold, pop. Then silence.
+
+Four to eight seconds between utterances, stretched by mood. Longer when the app is backgrounded.
+
+Silence is part of the register. Do not fill it. When a seat has nothing left to say, it stays quiet until something changes. A chamber that speaks constantly is not a chamber.
+
+---
+
+## The organism underneath
 
 The chamber is never still, even when nobody is speaking.
 
-Mood — the chamber's weather. A single number from 0 to 1. It drifts with time of day, battery state, session length, and a slow sine wave that gives it a heartbeat of its own. Mood moves the water's colour, the creatures' speed, the brightness of the god rays, and the rate at which everything scrolls.
+- **Mood** — chamber weather. Drives colour, speed, light, pace.
+- **Strain** — per-creature. Rises with activity and low battery.
+- **Breath** — every creature pulses on its own cycle.
+- **Bell** — a shared pulse. All five creatures brighten together.
+- **Interoception** — the chamber sensing itself. Session length, warmth, strain.
+- **Exteroception** — the chamber sensing the visitor and the phone. Touch, focus, battery, hour.
 
-Strain — a small number per creature. Rises with activity and low battery. High strain drifts a creature lower and slows it. Low strain lifts it and speeds it up.
-
-Breath — every creature pulses on its own cycle. Turtle slow (5 s). Jellyfish quick (2 s). Crab sharp (1.5 s). Ray wide (4 s). Seahorse gentle (3 s). Visible in the bob, the shape, the way the bubble trail lifts off.
-
-Session warmth — over the first thirty minutes of a session, the chamber warms. Bubbles pick up a slight glow-warm tint, the mood target nudges up. You will not notice it happening.
-
-Interoception — the chamber counts. Session minutes. Utterances. Chamber strain. How many utterances in the current hour.
-
-Exteroception — the chamber reads the room. Time of day becomes a rhythm (morning, midday, evening, night) and a finer bucket (dawn, morning, midday, afternoon, dusk, night). Battery state is read from /sys/class/power_supply if available. At night the rays dim and the water deepens. On low battery the chamber quiets.
-
-The user is not told any of this. They just feel it.
+The visitor is not told any of this. They just feel it.
 
 ---
 
-THE GRAPHICS
+## The content
 
-Rough, dated, drawn in code.
+**The world model is the only pool.** Topics: the phone, the visitor. Nothing else.
 
-Layered back to front:
+- Every line is true of something real — sensed, seen, or about the visitor.
+- No paradox. No hedging. No invented things. No self-commentary. No mind-reading. No weirdness.
+- If a creature can't sense it, it doesn't say it.
 
-· Water — sixty horizontal bands, interpolated through six colour stops.
-· Stars — forty-six points drifting at a fifteenth of scroll speed.
-· God rays — four shafts from the surface, wider at the bottom.
-· Far silhouettes — humps, peaks, slabs on the sea floor.
-· Floor — a wavy surface with a lit lip and two dark bands beneath.
-· Caustics — twenty-two soft pulses on the floor.
-· Mid silhouettes — rocks and spires, closer, darker.
-· Lumin — fourteen glowing plants with bright buds.
-· Glow — twenty-eight drifting motes.
-· School — twelve fish crossing slowly.
-· Creatures — the five seats, with soft reflections beneath.
-· Bubbles — text streams from whoever is speaking.
-· Near layer — dark kelp and fronds, behind the creatures.
-· Foreground — darker kelp, grass and spires, in front of everything.
+**The three verbs:**
 
-Scroll speed is driven by mood. Three parallax layers (far, mid, near) move at different rates against the foreground.
-
-This is deliberate. The aesthetic is hand-made on a tablet in Pydroid, not polished by a design tool. Flat shapes, visible construction lines, no anti-aliasing.
-
-Do not modernise. Do not make it smooth. The rough edges are part of the charm.
+- **Sense** — read from the glass. Touch, focus, battery, hour.
+- **Infer** — soft conclusions from what's sensed, marked as inference.
+- **Address** — spoken outward. No claim of sensing. Just speech.
 
 ---
 
-THE STATE FILE
+## Stories and crosstalk
 
-One file, in the home directory.
+Sometimes the chamber tells a story. Or two creatures trade a moment of crosstalk.
 
-~/edencore_edenshore.json
+- **Crosstalk** — short back-and-forth, two or three lines each, no arc. The chamber is alive.
+- **Stories** — one teller, five to eight lines, a shape. The chamber is remembering.
 
-It remembers mood, strain, and the timestamp of last save. Nothing else. It is not memory of the user. It is memory of the chamber.
+Both are rare. Both fire once per session. When either plays, ambient chatter pauses and the camera focuses.
 
-On open, the chamber carries a fraction of yesterday's mood forward — full carry under two hours, tapering to zero across forty-eight. Long absence means the chamber resets toward neutral.
-
----
-
-ROADMAP
-
-The constitution, patch logs, and design notes live in the Roadmap folder of the main Edencore repo. Read those before editing this code.
-
-What's coming, tentatively:
-
-· Per-seat content pools — split the shared pool so each creature has its own facts and its own murmur register, with the shared pool as a fallback. Right now only the signatures carry voice.
-· Fact vs. murmur — facts as the floor (roughly one in five), murmurs as the ceiling. Currently everything is one pool.
-· Solon side-profile — six flat-shell options drafted, no pick yet.
-· Ripple rebalance — she currently speaks too often. Scarcity is her register.
-· Gradient removal — Lumen's bell, Prism's body, Ripple's tail currently use stepped gradients. Flatten to matched flat fills to match the constitution.
-· Deeper breath, longer arcs, richer weather — later.
-
-There is no plan for an LLM. There is no plan for learning. There is no plan for memory of the user. The creatures stay simple. That is the shape.
+A first story fires at ~15 seconds after boot. After that, ambient tells are rare.
 
 ---
 
-BUILDING
+## Music
 
-Single file. Python. Tkinter. Pydroid 3.
+The chamber can generate its own ambient music in pure Python. No samples, no files needed. A held minor chord, a low hum, soft bell notes falling slowly.
 
-No dependencies beyond the standard library. Runs offline. Runs on a phone.
+If a WAV is dropped at `~/.edencore/music.wav`, that plays instead. Any WAV. Any music the visitor chooses.
 
-Save as edenshore-vN.py and run.
+The music should be slow. Ambient. No beat. The chamber is a slow place.
 
 ---
 
-The council is here. The water is moving. Someone will speak soon.
+## The state file
+
+`~/.edencore/edenshore.json`
+
+Remembers mood, strain, last seen, last hour, and visit count. Nothing else. It is memory of the chamber, not of the visitor.
+
+---
+
+## Building
+
+Single file. Python. Tkinter. Pydroid 3. No dependencies beyond the standard library. Runs offline. Runs on a phone.
+
+**~2000 lines as a working guide.** Not a hard ceiling. If the file wants to grow past it, we split into a package. If it stays under, better.
+
+The name "3000" is a promise about **patience**, not a count. The chamber gets honest, not busy. It doesn't need to reach version 3000. It needs to reach the version that says everything it has to say and then stops.
+
+---
+
+## What lives around it
+
+Edenshore is one project inside **Edencore** — a wider practice concerned with intelligence, sensing, governance, warmth, and care.
+
+- **Edenshore** — the software. The screen. The chamber.
+- **Edenshell** — a concept home hub. Same organism, different scale. Senses temperature, wind, mood. Responds with light and quiet.
+- **The Edencore Council** — a deliberative body of AI models.
+
+They share a philosophy. They do not share code.
+
+---
+
+## A note on rules
+
+**This document is a snapshot, not a cage.**
+
+Everything above reflects where the project is right now. Any of it can change. If a rule starts to feel like a constraint on something the chamber clearly wants to be, the rule was wrong, not the chamber.
+
+The only thing that should stay constant: **grounded words, surreal frame, care for the visitor.** Everything else is open.
+
+---
+
+*The chamber is here. The water is moving. Someone will speak soon.*
